@@ -14,5 +14,6 @@ function driverNamesWithRevenueOver(drivers, revenue) {
 
 
 function exactMatch () {
-  
+  drivers = drivers.where(driver === driver)
+  return drivers;
 }
