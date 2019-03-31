@@ -1,7 +1,7 @@
 // Code your solution here:
+const drivers = []
 
-
-function driversWithRevenueOver() {
+function driversWithRevenueOver(drivers, revenue) {
   
 }
 
