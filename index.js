@@ -23,5 +23,5 @@ function exactMatch(drivers, possibleMatch){
 
 function exactMatchToList(drivers, possibleMatch){
   matches = exactMatch(drivers, possibleMatch)
-  return matches.map(m => m.name)
+  return matches.map(driver => driver.name);
 }
