@@ -2,8 +2,8 @@
 const drivers = []
 
 function driversWithRevenueOver(drivers, revenue) {
-drivers.map(s => s.revenue);
-  
+  drivers = drivers.filter(drivers => s.revenue);
+  return drivers;
 }
 
 
