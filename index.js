@@ -21,7 +21,7 @@ function exactMatch(drivers, possibleMatch){
   })
 }
 
-function exactMatchToList(drivers, object){
-  matches = exactMatch(drivers, object)
+function exactMatchToList(drivers, possibleMatch){
+  matches = exactMatch(drivers, possibleMatch)
   return matches.map(m => m.name)
 }
